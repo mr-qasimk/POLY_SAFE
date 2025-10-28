@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <nav class="shadow-md fixed top-0 left-0 w-full z-10 bg-[#2aa5d2] ">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+     <a href="#">
+        <img src="images/logo.png" alt="POLYSAVE" class="h-10 w-auto">
+     </a>
+      <ul id="menu" class="hidden md:flex space-x-6 text-sm font-medium text-white">
+        <li><a href="#" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#" class="hover:text-blue-600">PRODUCTS</a></li>
+        <li><a href="#" class="hover:text-blue-600">ABOUT</a></li>
+        <li><a href="#" class="hover:text-blue-600">SERVICE</a></li>
+        <li><a href="#" class="hover:text-blue-600">PROJECTS</a></li>
+        <li><a href="#" class="hover:text-blue-600">BLOGS</a></li>
+        <li><a href="#" class="hover:text-blue-600">CONTACT US</a></li>
+      </ul>
+      <div class="flex items-center space-x-4">
+        <button class="relative">
+          <svg class="w-6 h-6 hover:text-blue-600" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m12-9l2 9m-8 0h4" />
+          </svg>
+          <span
+            class="absolute -top-2 -right-2 bg-blue-600 text-white text-xs rounded-full px-1.5 py-0.5">0</span>
+        </button>
+        <button id="menu-btn" class="md:hidden ">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+   <section class="pt-24 text-white py-20 h-[500px] bg-[url('images/bg.png')] bg-cover bg-center bg-no-repeat flex flex-col justify-center px-6 md:px-16 ">
+  
+  <!-- Tagline -->
+  <p class="text-sm mb-2 md:ml-4">POLYSAVE A TRUSTED PARTNER</p>
+
+  <!-- Heading -->
+  <h2 class="text-3xl md:text-2xl font-bold mb-4 md:ml-4 max-w-2xl leading-tight">
+    Built to Last. Engineered for Your Life
+  </h2>
+
+  <!-- Description -->
+  <p class="text-sm md:text-base mb-20 md:ml-4 max-w-xl leading-relaxed ">
+    Premium, durable water and storage tanks designed for homes, farms, and industry. 
+    Get cleaner water and unwavering reliability.
+  </p>
+
+  <!-- Button -->
+  <a href="#products"
+    class="bg-blue-600 text-white font-semibold text-sm px-4 py-2 hover:shadow-md transition w-fit md:ml-4 rounded-2xl">
+    Show Products
+  </a>
+</section>
+
+  <section class="bg-gray-100 rounded-2xl shadow-md">
+        <div class="Categories m-0 ml-10 mt-7">
+            <p class="text-sm text-black-200">CATEGORIES</p>
+            <h1 class="text-2xl text-black-900 font-semibold">
+                Shop Our Categories
+            </h1>
+        </div>
+       <div id="displayresult" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 p-6 "></div>
+     
+               
+        </div>
+  </section>
+
+  <footer class="text-center bg-gray-800 leading-relaxed tracking-wide line-through text-white">
+    <p>This is footer section and @copyright Qasim khan</p>
+  </footer>
+<!-- 
+  <script>
+    const card = document.querySelector('#displayresult');
+
+    for (let index = 0; index < 10; index++) {
+        card.innerHTML = `
+        <div class="shadow-md rounded-2xl bg-blue-100">
+                        <div class="">
+                        <img src="/images/bg.png" alt="no picture">
+                        <h6 class="text-sm font-bold">Title</h6>
+                        <p>price</p>
+                        <button>Add to card</button>
+                    </div>
+                    </div>`
+        
+    }
+  </script> -->
+</body>
+
+<script src="javascript.js"></script>
+</html>
