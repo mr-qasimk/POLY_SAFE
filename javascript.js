@@ -26,3 +26,23 @@ async function loadProducts() {
 }
 
 loadProducts();
+
+
+
+//  const swiper = new Swiper(".mySwiper", {
+//     slidesPerView: 1,
+//     spaceBetween: 20,
+//     loop: true,
+
+//     // Responsive breakpoints
+//     breakpoints: {
+//       640: { slidesPerView: 2 },
+//       1024: { slidesPerView: 3 },
+//     },
+
+//     // Custom navigation (your own buttons)
+//     navigation: {
+//       nextEl: "#nextBtn",
+//       prevEl: "#prevBtn",
+//     },
+//   });

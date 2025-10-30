@@ -6,9 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poly Save</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="icon" type="image/png" href="images/63eb1ce8f032504012a5896b_Mastercard.png">
+  <link rel="icon" type="image/png" href="images/63eb1ce8f032504012a5896b_Mastercard.png"> //title icon
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> //tailwind css
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 
 <body>
@@ -145,6 +148,189 @@
 
 
   </section>
+
+
+  <section>
+    <div class="Categories m-0 ml-10 mt-7">
+      <p class="text-sm text-black-200">TOP SELLING</p>
+      <h1 class="text-2xl text-black-900 font-semibold">Top Selling Products</h1>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  mx-20 md:mx-15 ">
+
+      <div class=" flex flex-col   m-5">
+        <div class=" bg-[#FAFAFA] rounded-xl p-4">
+          <button class="bg-[#4780C2] text-white font-semibold text-sm w-[108px] h-[32px] md:ml-4 rounded-2xl "
+            disabled>Best Selling</button>
+          <img src="images/hd tank 1.svg" alt="Water Tank" class=" h-[209px] mx-auto bg-cover  ">
+          <div class="flex justify-between">
+            <img src="images/Gold Modern Premium Warranty Logo 1.svg" alt="Water Tank"
+              class="w-[50px] h[50px] flex justify-center ">
+            <img
+              src="images/pngtree-united-arab-emirates-flagvector-illustration-on-a-white-background-vector-png-image_28629424 1.svg"
+              alt="Water Tank" class="w-[50px] h-[50px] flex justify-center ">
+          </div>
+        </div>
+        <div class="mt-4">
+          <p class="text-xs mt-2">200 USG</p>
+          <h2 class="text-sm font-medium leading-5 ">PolySave HD Water Tank</h2>
+          <p class="text-xs mt-1 font-semibold"><span class="line-through">D</span> 249.00</p>
+        </div>
+      </div>
+
+
+      <div class=" flex flex-col   m-5">
+        <div class=" bg-[#FAFAFA] rounded-xl p-4">
+          <button class="bg-[#4780C2] text-white font-semibold text-sm w-[108px] h-[32px] md:ml-4 rounded-2xl "
+            disabled>Best Selling</button>
+          <img src="images/8.svg" alt="Water Tank" class=" h-[209px] mx-auto bg-cover  ">
+          <div class="flex justify-between">
+            <img src="" class="w-[50px] h[50px] flex justify-center ">
+            <img
+              src="images/pngtree-united-arab-emirates-flagvector-illustration-on-a-white-background-vector-png-image_28629424 1.svg"
+              alt="Water Tank" class="w-[50px] h-[50px] flex justify-center ">
+          </div>
+        </div>
+        <div class="mt-4">
+          <p class="text-xs mt-2">200 USG</p>
+          <h2 class="text-sm font-medium leading-5 ">PolySave HD Water Tank</h2>
+          <p class="text-xs mt-1 font-semibold"><span class="line-through">D</span> 249.00</p>
+        </div>
+      </div>
+
+
+      <div class=" flex flex-col   m-5">
+        <div class=" bg-[#FAFAFA] rounded-xl p-4">
+          <button class="bg-[#4780C2] text-white font-semibold text-sm w-[108px] h-[32px] md:ml-4 rounded-2xl "
+            disabled>Best Selling</button>
+          <img src="images/8.svg" alt="Water Tank" class=" h-[209px] mx-auto bg-cover  ">
+          <div class="flex justify-between">
+            <img src="" class="w-[50px] h[50px] flex justify-center ">
+            <img
+              src="images/pngtree-united-arab-emirates-flagvector-illustration-on-a-white-background-vector-png-image_28629424 1.svg"
+              alt="Water Tank" class="w-[50px] h-[50px] flex justify-center ">
+          </div>
+        </div>
+        <div class="mt-4">
+          <p class="text-xs mt-2">200 USG</p>
+          <h2 class="text-sm font-medium leading-5 ">PolySave HD Water Tank</h2>
+          <p class="text-xs mt-1 font-semibold"><span class="line-through">D</span> 249.00</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section>
+    <img src="images/Frame 1686556878.svg" alt="No Video" class="w-fit">
+  </section>
+
+  <section class="mt-7">
+    <!-- Header with Buttons -->
+    <div class="flex justify-between items-center">
+      <div class="ml-10">
+        <p class="text-sm text-gray-500">DISCOUNT DEAL</p>
+        <h1 class="text-2xl text-black font-semibold">Flash Deal On Products</h1>
+      </div>
+
+      <!-- Custom Buttons (will control Swiper) -->
+      <div class="flex h-[30px] mr-20 gap-2">
+        <button id="prevBtn" class="cursor-pointer">
+          <img src="images/left.svg" alt="Previous">
+        </button>
+        <button id="nextBtn" class="cursor-pointer">
+          <img src="images/right.svg" alt="Next">
+        </button>
+      </div>
+    </div>
+
+    <!-- Swiper Wrapper -->
+    <div class="swiper mySwiper mt-6  px-10">
+      <div class="swiper-wrapper bg-blue-100  flex items-center px-auto ">
+
+        <!-- Card 1   -->
+        <div class="swiper-slide bg-[#FAFAFA] rounded-xl p-4 h-[320px] m-5">
+          <img src="images/hd tank 1.svg" alt="Water Tank" class=" mx-auto bg-cover h-[209px] bg-cover">
+          <div class="mt-4">
+            <p class="text-xs mt-2">200 USG</p>
+            <h2 class="text-sm font-medium leading-5 mt-1">PolySave HD Water Tank</h2>
+            <p class="text-xs font-semibold flex items-center gap-1 mt-1">
+              <span class="line-through font-normal text-[#999999] flex items-center gap-1">
+                <img src="images/new_currency (1) gray.svg" alt=""> 249.00
+              </span>
+              <img src="images/new_currency (1) 1.svg" alt=""> 199
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="swiper-slide  bg-[#FAFAFA] rounded-xl p-4 h-[320px] m-5">
+          <img src="images/8.svg" alt="Water Tank" class="h-[209px] mx-auto bg-cover">
+          <div class="mt-4">
+            <p class="text-xs mt-2">200 USG</p>
+            <h2 class="text-sm font-medium leading-5 mt-1">PolySave HD Water Tank</h2>
+            <p class="text-xs font-semibold flex items-center gap-1 mt-1">
+              <span class="line-through font-normal text-[#999999] flex items-center gap-1">
+                <img src="images/new_currency (1) gray.svg" alt=""> 249.00
+              </span>
+              <img src="images/new_currency (1) 1.svg" alt=""> 199
+            </p>
+          </div>
+        </div>
+
+        <!-- Duplicate this block for more slides -->
+        <div class="swiper-slide  bg-[#FAFAFA] rounded-xl p-4 h-[320px] m-5">
+          <img src="images/8.svg" alt="Water Tank" class="h-[209px] mx-auto bg-cover">
+          <div class="mt-4">
+            <p class="text-xs mt-2">200 USG</p>
+            <h2 class="text-sm font-medium leading-5 mt-1">PolySave HD Water Tank</h2>
+            <p class="text-xs font-semibold flex items-center gap-1 mt-1">
+              <span class="line-through font-normal text-[#999999] flex items-center gap-1">
+                <img src="images/new_currency (1) gray.svg" alt=""> 249.00
+              </span>
+              <img src="images/new_currency (1) 1.svg" alt=""> 199
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide  bg-[#FAFAFA] rounded-xl p-4 h-[320px] m-5">
+          <img src="images/8.svg" alt="Water Tank" class="h-[209px] mx-auto bg-cover">
+          <div class="mt-4">
+            <p class="text-xs mt-2">200 USG</p>
+            <h2 class="text-sm font-medium leading-5 mt-1">PolySave HD Water Tank</h2>
+            <p class="text-xs font-semibold flex items-center gap-1 mt-1">
+              <span class="line-through font-normal text-[#999999] flex items-center gap-1">
+                <img src="images/new_currency (1) gray.svg" alt=""> 249.00
+              </span>
+              <img src="images/new_currency (1) 1.svg" alt=""> 199
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide  bg-[#FAFAFA] rounded-xl p-4 h-[320px] m-5">
+          <img src="images/8.svg" alt="Water Tank" class="h-[209px] mx-auto bg-cover">
+          <div class="mt-4">
+            <p class="text-xs mt-2">200 USG</p>
+            <h2 class="text-sm font-medium leading-5 mt-1">PolySave HD Water Tank</h2>
+            <p class="text-xs font-semibold flex items-center gap-1 mt-1">
+              <span class="line-through font-normal text-[#999999] flex items-center gap-1">
+                <img src="images/new_currency (1) gray.svg" alt=""> 249.00
+              </span>
+              <img src="images/new_currency (1) 1.svg" alt=""> 199
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -323,6 +509,28 @@
         
     }
   </script> -->
+
+
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+
+     
+      // Responsive breakpoints
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      },
+
+      // Custom navigation (your own buttons)
+      navigation: {
+        nextEl: "#nextBtn",
+        prevEl: "#prevBtn",
+      },
+    });
+  </script>
 </body>
 
 <script src="javascript.js"></script>
