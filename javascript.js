@@ -31,15 +31,14 @@ loadProducts();
 
  const swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
-    spaceBetween: 20,
+    spaceBetween: 0,
     loop: true,
 
     // Responsive breakpoints
     breakpoints: {
-      640: { slidesPerView: 2 },
-      1024: { slidesPerView: 3 },
-    },
-
+    640: { slidesPerView: 2, spaceBetween: 25 },
+    1024: { slidesPerView: 3, spaceBetween: 30 },
+  },
     // Custom navigation (your own buttons)
     navigation: {
       nextEl: "#nextBtn",
